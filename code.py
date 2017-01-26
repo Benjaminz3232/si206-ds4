@@ -43,5 +43,7 @@ class MyTest(unittest.TestCase):
     def test01(self):
         self.assertEqual(factorial(0), 0)
 
+unittest.main(verbosity=2)
+
 
 
