@@ -41,7 +41,7 @@ print("check_leap_year(2100): {}".format(check_leap_year(2100)))
 
 class MyTest(unittest.TestCase):
     def test01(self):
-        self.assertEqual(factorial(0), 0)
+        self.assertEqual(factorial(6), 720)
 
 unittest.main(verbosity=2)
 
